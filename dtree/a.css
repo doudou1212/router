@@ -1,0 +1,240 @@
+body {
+    background: url("graphics/bg.png") repeat-x scroll center top #FFFFFF;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.div_content {
+    border: 0 none;
+    margin: 40px auto;
+    width: 401px;
+}
+.div_header {
+    background: url("graphics/box_bg_top.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 53px;
+    padding-top: 42px;
+    width: 401px;
+}
+.div_center {
+    background: url("graphics/box_bg_center.png") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    padding: 0 0 10px;
+    width: 401px;
+}
+.div_bottom {
+    background: url("graphics/box_bg_bottom.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 18px;
+    width: 401px;
+}
+.div_container {
+    margin: auto;
+    width: 332px;
+}
+.div_row {
+    background: url("graphics/iPad_Grey_ColorBar.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 45px;
+    margin-left: 0;
+    position: relative;
+    text-align: left;
+    width: 332px;
+}
+.item_row {
+    background: url("graphics/item_bg.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 45px;
+    width: 260px;
+}
+.div_row_text {
+    border: 0 none;
+    color: #515151;
+    float: left;
+    font-family: "微软雅黑",Times,serif;
+    font-size: 14px;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 11px;
+    white-space: nowrap;
+    width: 90px;
+}
+.div_row_control {
+    color: #10B0FF;
+    float: left;
+    font-family: "Times New Roman",Times,serif;
+    font-size: 16px;
+    padding: 10px 10px 10px 3px;
+    text-align: left;
+    white-space: nowrap;
+    width: 180px;
+}
+.div_row_control input[type="text"], .div_row_control input[type="password"] {
+    font-family: 微软雅黑;
+    height: 20px;
+    line-height: 20px;
+    width: 211px;
+}
+.div_row_control select {
+    font-family: 微软雅黑;
+    height: 26px;
+    line-height: 26px;
+    width: 216px;
+}
+.div_row_text_right {
+    border: 0 none;
+    color: #10B0FF;
+    float: right;
+    font-family: "Times New Roman",Times,serif;
+    font-size: 16px;
+    margin-right: 11px;
+    padding: 12px 0;
+    text-align: right;
+    white-space: nowrap;
+    width: 160px;
+}
+.div_row_image {
+    border: 0 none;
+    padding: 9px 0;
+}
+.div_spin_image {
+    position: relative;
+    text-align: right;
+    top: 0;
+}
+.div_row_tag {
+    border: 0 none;
+    color: #10B0FF;
+    font-family: "Times New Roman",Times,serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 0;
+    text-align: left;
+}
+.image_middle {
+    border: 0 none;
+    left: 10px;
+    position: relative;
+    vertical-align: middle;
+}
+.image_middleN10 {
+    margin: auto;
+}
+.text_button {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: #10B0FF;
+    font-family: "Times New Roman",Times,serif;
+    font-size: 16px;
+    margin-left: 11px;
+    padding: 12px 0;
+    text-align: left;
+    white-space: nowrap;
+}
+.combobox_row {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: #000000;
+    font-family: "Times New Roman",Times,serif;
+    font-size: 16px;
+    left: 4px;
+    position: relative;
+    top: 10px;
+    width: 294px;
+}
+.combobox_right {
+    background-color: #EAEAEA;
+    border: 0 none;
+    color: #10B0FF;
+    font-family: "Times New Roman",Times,serif;
+    font-size: 16px;
+    position: relative;
+    text-align: right;
+    top: 10px;
+    z-index: 1;
+}
+.div_combobox_text {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: #000000;
+    font-family: "Times New Roman",Times,serif;
+    font-size: 16px;
+    padding: 12px 0;
+    position: absolute;
+    text-align: right;
+    white-space: nowrap;
+    width: 180px;
+}
+.div_bottom_text {
+    color: #10B0FF;
+    font-family: "Times New Roman",Times,serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 40px 0;
+    position: relative;
+    text-align: center;
+}
+.btn {
+    background: url("graphics/iPad_Grey_ColorBar.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #515151;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 微软雅黑;
+    font-size: 20px;
+    font-weight: bold;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    text-decoration: none;
+    width: 332px;
+}
+div.box {
+    background: url("graphics/box_bg_3.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    margin: 40px auto 0;
+    padding: 1px;
+    width: 395px;
+}
+div.title_back {
+    background: url("graphics/btn_back.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 38px;
+    margin-left: 3px;
+    width: 60px;
+}
+.btn_back {
+    color: #FFFFFF;
+    display: block;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    font-weight: bold;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 14px;
+    text-decoration: none;
+}
+div.title_done {
+    background: url("graphics/btn_done.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 38px;
+    width: 60px;
+}
+.btn_done {
+    color: #FFFFFF;
+    display: block;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    font-weight: bold;
+    height: 38px;
+    line-height: 38px;
+    text-decoration: none;
+}
+div.title_text {
+    color: #515151;
+    font-family: 微软雅黑 Bold;
+    font-size: 18px;
+    font-weight: bold;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    width: 206px;
+}
+.div_sp_text {
+    color: #515151;
+    font-family: 微软雅黑;
+}
+.smfont {
+    font-size: 13px;
+}
